@@ -43,25 +43,21 @@
             Books
             <div class="cards">
                 <div class="card-blocks">
-                    <div class="display">not working</div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, at.
+                    <div class="book" id="library-book"></div>
                 </div>
-                <div class="card-blocks">
-                    Nisi nulla quo quisquam voluptas facilis similique repudiandae culpa odit.
-                </div>
-                <div class="card-blocks">
-                    Tempore illo aperiam qui adipisci maiores doloribus, harum totam sapiente!
-                </div>
-                <div class="card-blocks">
-                    Tenetur fugit aliquid beatae commodi assumenda fuga placeat? Optio, impedit.
-                </div>
-                <div class="card-blocks">
-                    Quidem dolores sit quam consectetur illo ratione tempore quos perspiciatis.
-                </div>
-                <div class="card-blocks">
-                    Sequi vel quo magnam atque iure voluptatem quis quas consectetur?
-                </div>
+                <form id="new-book-form" style="display: none;">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title">
+                    <label for="author">Author</label>
+                    <input type="text" id="author" name="author">
+                    <label for="pages">Pages</label>
+                    <input type="text" id="pages" name="pages">
+                    <label for="read">Read</label>
+                    <input type="checkbox" id="read" name="read">
+                    <button type="submit" id="submit">Submit</button>
+                </form>
             </div>
+            <button id="add-book">Add Book</button>
         </main>
     </div>
 </body>

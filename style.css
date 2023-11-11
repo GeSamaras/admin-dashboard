@@ -107,6 +107,7 @@ html, body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    grid-auto-flow: column;
 }
 
 .card-blocks:hover {
